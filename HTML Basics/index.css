@@ -1,0 +1,53 @@
+.card{
+    border: 1.5px solid lightgrey;
+    border-radius: 10px;
+    padding: 24px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 500px;
+    margin-left: 500px;
+    display: flex;   
+}
+
+.firstDiv{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.secondDiv{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.thirdDiv{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+span{
+    font-size: 12px;
+}
+
+h2{
+    color: rgb(0, 89, 255);
+}
+
+#btn{
+    border: none;
+    color: rgba(0, 110, 255, 0.993);
+    font-weight: 200px;
+    cursor: pointer;
+}
+
+#next{
+    background-color: rgba(0, 119, 255, 0.808);
+    color: white;
+    padding: 8px 16px;
+    float: right;
+    cursor: pointer;
+}
+
