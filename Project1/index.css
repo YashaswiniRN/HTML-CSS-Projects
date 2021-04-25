@@ -1,0 +1,105 @@
+header{
+    width: 100%;
+    margin: 5px 0px;
+    padding: 12px 24px;
+    box-shadow: 2px 2px lightgrey;
+    display: flex;
+}
+
+body{
+  font-family: 'Roboto Condensed', sans-serif; 
+}
+#div1{
+    width: 80%;
+    display: flex;
+}
+
+#div2{
+    width: 20%;
+    display: flex;
+    float: right;
+}
+#logo{
+    float: left;
+}
+
+.navbar{
+    display: block;
+    float: left;
+    margin: 0 0 0 5px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.top-bar{
+    padding: 8px 16px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.fas{
+    font-size: 30px;
+    padding: 12px 24px;
+}
+.far{
+    font-size: 30px;
+    padding: 12px 24px;
+}
+.image{
+    width: 100%;
+}
+.image1{
+    width: 100%;
+    margin: 10px 20px;
+}
+
+h1{
+    letter-spacing: 4px;
+    padding-left: 40px;
+}
+
+.image-image{
+    padding: 20px 20px;
+    width: 250px;
+}
+
+.address{
+  
+    margin: 0 30px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+}
+
+.details{
+    width: 70%;
+    display: flex;
+    color: #94969f;
+}
+.contact{
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+}
+
+.number{
+    width: 30%;
+    display:flex;
+    color: #94969f;
+}
+footer{
+    margin-top: 40px;
+}
+.tag{
+    float: right;
+    padding-right: 40px;
+}
+
+#container{
+    width: 100%;
+    display:flex;
+}
