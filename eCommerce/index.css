@@ -8,6 +8,8 @@
     width: 100%;
     background-color: #6EBDEE;
     margin:0;
+    position: fixed;
+    z-index: 10;
 }
 
 body{
@@ -72,8 +74,12 @@ body{
     background-color: black;
     color:#FDFDFD;
 }
+.banner-btn:hover{
+background-color: #6EBDEE;
+cursor: pointer;
+}
 .bg-image{
-    background-image: url("./Mountain-hiking_1.jpg");
+    background-image: url("./Images/mountain_hiking.jpg");
     padding-top: 100px;   
 }
 .main{
@@ -191,6 +197,11 @@ body{
     background-color: white;
     color: black;
 }
+.banner-btn-1:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
 .footer{
     background-color:black;
     padding-top: 60px;
@@ -273,7 +284,7 @@ body{
 }
 
 .prd-1{
-    min-height: 400px;
+    min-height: 435px;
     margin-bottom: 40px;
     border-radius: 4px;
     background-color:white;
@@ -281,9 +292,10 @@ body{
     position:relative;
     justify-content: center;
     align-items: center;
-    background-image: url("./bag.jpg");
+    background-image: url("./images/bagpacks.png");
     border: 1px solid rgba(128, 128, 128, 0.849);
     padding: 8px 16px;
+    cursor: pointer;
 }
 .prd-info p span{
 text-decoration: line-through;
@@ -307,8 +319,11 @@ color:#6EBDEE;
     border-radius: 2px;
     cursor: pointer;
 }
+.button:hover{
+    background-color: black;
+}
 .prd-2{
-    min-height: 400px;
+    min-height: 450px;
     margin-bottom: 40px;
     border-radius: 4px;
     background-color:white;
@@ -316,12 +331,12 @@ color:#6EBDEE;
     position:relative;
     justify-content: center;
     align-items: center;
-    background-image: url("./badminton.jpeg");
+    background-image: url("./images/badmiton1.jpeg");
     border: 1px solid rgba(128, 128, 128, 0.849);
-    padding: 8px 16px;
+    cursor:pointer;
 }
 .prd-3{
-    min-height: 400px;
+    min-height: 433px;
     margin-bottom: 41px;
     border-radius: 4px;
     background-color:white;
@@ -329,9 +344,10 @@ color:#6EBDEE;
     position:relative;
     justify-content: center;
     align-items: center;
-    background-image: url("./camping-tent.jpg");
+    background-image: url("./images/camping-tent.jpg");
     border: 1px solid rgba(128, 128, 128, 0.849);
     padding: 8px 16px;
+    cursor:pointer;
 }
 hr{
     margin:  20px 0;
@@ -349,7 +365,18 @@ hr{
     color: white;
     cursor: pointer;
 }
-
+.load-more:hover{
+    background-color: #6EBDEE;
+}
+.copyright{
+    color:#FDFDFD;
+    text-align: center;
+}
+#git{
+    color: #6EBDEE;
+    font-weight: 700;
+    text-decoration: none;
+}
 
 
 
